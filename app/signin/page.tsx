@@ -37,11 +37,11 @@ const Signin = () => {
     return <div className="flex flex-col md:flex-row py-20 items-center">
         <ToastContainer/>
         <div className="flex justify-center items-center w-full">
-            <h1 className="text-5xl font-bold text-center">Murag-Twitter</h1>
+            <h1 className="text-4xl text-blue-500 font-bold text-center">Murag-Twitter</h1>
         </div>
         <form 
             action={signinHandler}
-            className="flex flex-col gap-1 w-120 p-7 mr-0 md:mr-10"
+            className="flex flex-col gap-1 w-full sm:w-120 p-7 mr-0 md:mr-10"
         >
             <h1 className="font-bold text-3xl mb-3">Welcome bossing.</h1>
             <label htmlFor="email">Email</label>
