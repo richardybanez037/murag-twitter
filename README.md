@@ -2,7 +2,7 @@
 link: https://murag-twitter.vercel.app
 
 Tech:
-- Nextjs
+- Nextjs, Reactjs
 - Better-Auth
 - Redux
 - MongoDB
